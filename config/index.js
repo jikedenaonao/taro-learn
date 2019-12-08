@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'muA',
+  projectName: 'taro-learn',
   date: '2019-12-8',
   designWidth: 750,
   deviceRatio: {

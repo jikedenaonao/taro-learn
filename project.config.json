@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "muA",
+  "projectname": "taro-learn",
   "description": "taro learn",
   "appid": "touristappid",
   "setting": {

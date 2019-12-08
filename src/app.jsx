@@ -20,13 +20,17 @@ class App extends Component {
 
   config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/inspectionList/inspectionList',
+      'pages/inspectionDetail/inspectionDetail',
+      'pages/sampleDetail/sampleDetail',
+      'pages/sampleAdd/sampleAdd',
     ],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: 'WeChat',
-      navigationBarTextStyle: 'black'
+      navigationBarTextStyle: 'black',
     }
   }
 
