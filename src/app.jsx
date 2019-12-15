@@ -6,6 +6,7 @@ import counterStore from './store/counter'
 
 import './app.less'
 
+
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
 // if (process.env.NODE_ENV !== 'production' && process.env.TARO_ENV === 'h5')  {
@@ -25,14 +26,16 @@ class App extends Component {
       'pages/inspectionDetail/inspectionDetail',
       'pages/sampleDetail/sampleDetail',
       'pages/sampleAdd/sampleAdd',
+      // 'pages/test/test',
     ],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black',
+      backgroundColor:'rgba(244, 244, 244, 1)'
     }
-  }
+  };
 
   componentDidMount () {}
 
